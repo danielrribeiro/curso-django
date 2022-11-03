@@ -3,9 +3,10 @@ from django.urls import reverse
 
 from pypro.django_assertions import assert_contains
 
+
 @pytest.fixture
 def resp(client):
-    resp = client.get(reverse('base:home'))
+    resp = client.get(reverse('home'))
     return resp
 
 
@@ -18,4 +19,4 @@ def test_title(resp):
 
 
 def test_home_link(resp):
-    assert_contains(resp, f'href="{reverse("base:home")}">Python Pro</a>')
+    assert_contains(resp, f'href="{reverse("home")}">Python Pro</a>')
