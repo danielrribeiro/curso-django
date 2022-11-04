@@ -33,12 +33,8 @@
             "version": "==1.26.2"
         },
         "botocore": {
-            "hashes": [
-                "sha256:8a8c28dc22c241faae7ed09a67481e82972c4d632020b99598a8e81e8e07ae6b",
-                "sha256:e170dd237b976fe9d9ae8d8bea7248dbc6d3664ed5fc142f59b41c2078e9220f"
-            ],
-            "markers": "python_version >= '3.7'",
-            "version": "==1.29.2"
+            "hashes": [],
+            "version": "==1.29.3"
         },
         "certifi": {
             "hashes": [
