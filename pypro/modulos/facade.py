@@ -1,6 +1,5 @@
 from typing import List
 
-
 from pypro.modulos.models import Modulo, Aula
 
 
@@ -23,3 +22,7 @@ def listar_aulas_de_modulo_ordenadas(modulo: Modulo):
 
 def encontrar_aula(slug):
     return Aula.objects.select_related('modulo').get(slug=slug)
+
+
+def listar_modulos_com_aulas():
+    return Modulo.objects.order_by('order').all()
