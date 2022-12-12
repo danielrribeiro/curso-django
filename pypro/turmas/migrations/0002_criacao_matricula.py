@@ -29,7 +29,10 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('data', models.DateTimeField(auto_now_add=True)),
                 ('turma', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='turmas.turma')),
-                ('usuario', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+                ('usuario',
+                 models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,
+                                   to=settings.AUTH_USER_MODEL)
+                 ),
             ],
         ),
         migrations.AddField(
