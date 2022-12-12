@@ -7,4 +7,3 @@ class Turma(models.Model):
     slug = models.SlugField(max_length=64)
     inicio = models.DateTimeField()
     fim = models.DateTimeField()
-    matriculas = models.ManyToManyField(get_user_model())
