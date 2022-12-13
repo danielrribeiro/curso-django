@@ -87,12 +87,8 @@
             "version": "==5.1.1"
         },
         "dj-database-url": {
-            "hashes": [
-                "sha256:5f2f6b3f65786bac5d3b9e749bff1dcac83398d95778576909697f7b16aee6b9",
-                "sha256:8be4253439d75412aaad4f82af7aecda956893c87fb8d10edc0adb2d34312527"
-            ],
-            "index": "pypi",
-            "version": "==1.1.0"
+            "hashes": [],
+            "version": "==1.2.0"
         },
         "django": {
             "hashes": [
