@@ -40,19 +40,19 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:53badfc5f145b8a3f9117512b41bc5a64db1cce1b549061d8edba68909e63fdf",
-                "sha256:548081a0f8854bb2eea1e368ab29945478105f56989546f653c75528dcb07d88"
+                "sha256:13ba1d98ab5e2591be2dd19c779d67aa4210f126a827c9a376532ace435d8df9",
+                "sha256:e222714a6a841f318d3b6557d915dcc3729ff286e9aa3d03b5d26d6bfce3a3bd"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.26.28"
+            "version": "==1.26.30"
         },
         "botocore": {
             "hashes": [
-                "sha256:982732e7ed65cb6ed11ea3ce0e32dff2bcd465836c32376154f0802aa0a112c7",
-                "sha256:f0b8bb976e368dea20a960b47169e31fc0828feb6f0b9f59f1e5be8d08919b10"
+                "sha256:6bfe917c022b92c093da448aae71b18f7dcbbbc69403f57ee39ca4775b2888e6",
+                "sha256:9364417f53842167f8bcf72b9ab3c78457c7df613051101952b2470d9de7ea31"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.29.28"
+            "version": "==1.29.30"
         },
         "certifi": {
             "hashes": [
@@ -88,11 +88,11 @@
         },
         "dj-database-url": {
             "hashes": [
-                "sha256:5f2f6b3f65786bac5d3b9e749bff1dcac83398d95778576909697f7b16aee6b9",
-                "sha256:8be4253439d75412aaad4f82af7aecda956893c87fb8d10edc0adb2d34312527"
+                "sha256:5c2993b91801c0f78a8b19e642b497b90831124cbade0c265900d4c1037b4730",
+                "sha256:b23b15046cb38180e0c95207bcc90fe5e9dbde8eef16065907dd85cf4ca7036c"
             ],
             "index": "pypi",
-            "version": "==1.1.0"
+            "version": "==1.2.0"
         },
         "django": {
             "hashes": [
