@@ -367,12 +367,8 @@
             "version": "==0.6.2"
         },
         "traitlets": {
-            "hashes": [
-                "sha256:57ba2ba951632eeab9388fa45f342a5402060a5cc9f0bb942f760fafb6641581",
-                "sha256:fde8f62c05204ead43c2c1b9389cfc85befa7f54acb5da28529d671175bb4108"
-            ],
-            "markers": "python_version >= '3.7'",
-            "version": "==5.7.1"
+            "hashes": [],
+            "version": "==5.12.0"
         },
         "typing-extensions": {
             "hashes": [
